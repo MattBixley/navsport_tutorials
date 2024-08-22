@@ -1,11 +1,15 @@
 ---
-title: "condes_tutorial"
+title: "Condes Tutorial"
+subtitle: "getting started with course planning software"
+author: "Dunedin Orienteering Club"
+date: "2024-08-29"
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+#### The workshop will give you experience in:
 
-```{r}
-1 + 1
-```
+- Installing Condes onto your device (if required)
+- Importing a map ready to plan your course
+- Using the course planning tools to set a course (put the circles, lines, other information onto the printed map)
+- Laying out a course map ready for printing
+- Exporting data files and map files

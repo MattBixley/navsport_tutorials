@@ -5,13 +5,11 @@ author: "Dunedin Orienteering Club"
 date: "2024-08-29"
 ---
 
-::: {layout-ncol=2}
+::: {layout-ncol="2"}
 ![](resources/DOC.png){width="90"}
 
 ![](resources/condes.jpeg){fig-align="right" width="179"}
 :::
-
-
 
 #### The workshop will give you experience in:
 
@@ -20,3 +18,9 @@ date: "2024-08-29"
 -   Using the course planning tools to set a course (put the circles, lines, other information onto the printed map)
 -   Laying out a course map ready for printing
 -   Exporting data files and map files
+
+#### Guides
+
+-   User Guide - <https://www.condes.net/onlinehelp/index.html?CondesUserGuideFromScottishOrienteeringAssociation>
+
+-   Quick Start - <https://www.condes.net/onlinehelp/index.html?HowToGetAQuickStart>

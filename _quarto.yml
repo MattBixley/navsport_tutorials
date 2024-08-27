@@ -5,8 +5,8 @@ website:
   title: "Things with Maps"
   repo-url: https://github.com/MattBixley/condes_tutorial
   issue-url: https://github.com/MattBixley/condes_tutorial/issues
+  repo-actions: edit
   back-to-top-navigation: true
-  bread-crumbs: true
     
   navbar:
     search: true

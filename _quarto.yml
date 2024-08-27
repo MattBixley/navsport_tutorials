@@ -2,16 +2,23 @@ project:
   type: website
 
 website:
-  title: "condes_tutorial"
+  title: "Things with Maps"
   navbar:
+    search: true
     left:
       - href: index.qmd
         text: Home
-      #- about.qmd
-      - href: contact.qmd
-        text: Contact
-    
-
+      - href: pages/condes_tutorial.qmd
+        text: Condes Tutorial
+      - href: pages/course_planning.qmd
+        text: Course Planning
+      - href: pages/rogaine_planning.qmd
+        text: Rogaine Planning
+    right:
+      - icon: github
+        href: https://github.com/MattBixley/condes_tutorial
+        aria-label: GitHub    
+        
 format:
   html:
     theme: sketchy

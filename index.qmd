@@ -6,5 +6,3 @@ listing:
   contents:
     - "pages/*.qmd"
 ---
-
-

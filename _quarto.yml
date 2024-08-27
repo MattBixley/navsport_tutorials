@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Things with Maps"
@@ -7,7 +8,8 @@ website:
   issue-url: https://github.com/MattBixley/condes_tutorial/issues
   repo-actions: edit
   back-to-top-navigation: true
-    
+ 
+# Navbar settings   
   navbar:
     search: true
     left:
@@ -21,14 +23,19 @@ website:
         text: Rogaine Planning
     right:
       - icon: github
-        href: https://github.com/MattBixley/condes_tutorial
-        aria-label: GitHub    
+        href: https://github.com
         
+  sidebar:
+    style: "docked"
+    search: true
+  
+  page-navigation: true
+
+# formatting
 format:
   html:
     theme: sketchy
     css: styles.css
-    
+    toc: true
 
 editor: visual
-

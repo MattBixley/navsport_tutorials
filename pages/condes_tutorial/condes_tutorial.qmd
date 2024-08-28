@@ -5,9 +5,9 @@ date: "2024-08-29"
 ---
 
 ::: {layout-ncol="2"}
-![](../docs/_site/resources/condes.jpeg){width="175"}
+![](condes.jpeg){width="175"}
 
-![](../docs/_site/resources/DOC.png){fig-align="right" width="90"}
+![](DOC.png){fig-align="right" width="90"}
 :::
 
 # Outline
@@ -22,13 +22,13 @@ The workshop will give you experience in:
 
 # Guides
 
--   User Guide - [Condes User Guide From Scottish Orienteering Association](https://www.condes.net/onlinehelp/index.html?CondesUserGuideFromScottishOrienteeringAssociation){.uri}
+-   User Guide - [Condes User Guide From Scottish Orienteering Association](https://www.condes.net/onlinehelp/index.html?CondesUserGuideFromScottishOrienteeringAssociation){target="_blank"}
 
--   Quick Start - [Condes Quick Start](https://www.condes.net/onlinehelp/index.html?HowToGetAQuickStart){.uri}
+-   Quick Start - [Condes Quick Start](https://www.condes.net/onlinehelp/index.html?HowToGetAQuickStart){target="_blank"}
 
 # Installation
 
--   [Condes Download](https://condes.net/download/) - install_condes9.exe
+-   [Condes Download](https://condes.net/download/){target="_blank"} - install_condes9.exe
 
 -   Look at the various tools
 

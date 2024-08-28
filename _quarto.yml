@@ -17,11 +17,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: pages/condes_tutorial.qmd
+      - href: pages/condes_tutorial/condes_tutorial.qmd
         text: Condes Tutorial
-      - href: pages/course_planning.qmd
+      - href: pages/course_planning/course_planning.qmd
         text: Course Planning
-      - href: pages/rogaine_planning.qmd
+      - href: pages/rogaine_planning/rogaine_planning.qmd
         text: Rogaine Planning
     right:
       - icon: github

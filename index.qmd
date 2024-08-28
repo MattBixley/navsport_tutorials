@@ -7,5 +7,5 @@ author:
 
 listing:
   contents:
-    - "pages/*.qmd"
+    - "pages/*/*.qmd"
 ---

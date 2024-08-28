@@ -20,7 +20,7 @@ The workshop will give you experience in:
 -   Laying out a course map ready for printing (30 Mins)
 -   Exporting data files and map files (15 Mins)
 
-Resources for the session - \<download link\>
+Resources for the session - [CLICK TO DOWNLOAD](https://raw.githubusercontent.com/MattBixley/navsport_tutorials/master/pages/condes_tutorial/condes_tutorial.zip)
 
 # Guides
 
@@ -28,26 +28,35 @@ Resources for the session - \<download link\>
 
 -   Quick Start - [Condes Quick Start](https://www.condes.net/onlinehelp/index.html?HowToGetAQuickStart){target="_blank"}
 
+    -   This is the one we will work with
+
 # Installation
 
--   [Condes Download](https://condes.net/download/){target="_blank"} - install_condes9.exe
+-   [Condes Download](https://condes.net/download/){target="_blank"}
+
+    -   install_condes9.exe
 
 -   Look at the various tools
 
 # Create an Event
 
--   File \> New Event File (ctrl + n)\
-    follow the wizard
+-   Use the event wizard to create an event
 
--   File \> Save Event File (ctrl + s) to somewhere
+    -   `File > New Event File (ctrl + n)`
+
+-   Save the event file to a known location
+
+    -   `File > Save Event File (ctrl + s)`
 
 # Create a Course
 
--   Course \> New
+-   `Course > New`
 
--   Start/Finish
+    -   Name it, look at course settings, defaults
 
--   Add Controls
+-   Add the Start and Finish symbols
+
+-   Add Controls and select the order of a course
 
 -   Write Descriptions
 

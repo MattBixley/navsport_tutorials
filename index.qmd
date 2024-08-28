@@ -1,7 +1,10 @@
 ---
 title: "Things with Maps"
 subtitle: "getting started with map sports, tools and planning"
-author: "Matt Bixley"
+author:
+  - name: Matt Bixley
+    email: mattbixley72@gmail.com
+
 listing:
   contents:
     - "pages/*.qmd"

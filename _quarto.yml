@@ -8,6 +8,8 @@ website:
   issue-url: https://github.com/MattBixley/condes_tutorial/issues
   repo-actions: edit
   back-to-top-navigation: true
+  page-footer: 
+    left: "Copyright 2024, Matt Bixley"
  
 # Navbar settings   
   navbar:

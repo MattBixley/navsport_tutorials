@@ -1,17 +1,17 @@
 ---
 title: "Condes Tutorial"
 subtitle: "getting started with course planning software"
-author: "Dunedin Orienteering Club"
 date: "2024-08-29"
 ---
 
 ::: {layout-ncol="2"}
-![](../_site/resources/condes.jpeg){width="175"}
+![](../docs/_site/resources/condes.jpeg){width="175"}
 
-![](../_site/resources/DOC.png){fig-align="right" width="90"}
+![](../docs/_site/resources/DOC.png){fig-align="right" width="90"}
 :::
 
-#### The workshop will give you experience in:
+# Outline
+The workshop will give you experience in:
 
 -   Installing Condes onto your device (if required)
 -   Importing a map ready to plan your course
@@ -19,8 +19,8 @@ date: "2024-08-29"
 -   Laying out a course map ready for printing
 -   Exporting data files and map files
 
-#### Guides
+# Guides
 
--   User Guide - <https://www.condes.net/onlinehelp/index.html?CondesUserGuideFromScottishOrienteeringAssociation>
+-   User Guide - [Condes User Guide From Scottish Orienteering Association](https://www.condes.net/onlinehelp/index.html?CondesUserGuideFromScottishOrienteeringAssociation){.uri}
 
--   Quick Start - <https://www.condes.net/onlinehelp/index.html?HowToGetAQuickStart>
+-   Quick Start - [Condes Quick Start](https://www.condes.net/onlinehelp/index.html?HowToGetAQuickStart){.uri}

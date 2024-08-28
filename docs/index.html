@@ -242,10 +242,10 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1724846400000" data-listing-file-modified-sort="1724800250810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1724846400000" data-listing-file-modified-sort="1724806706429" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
 <div class="thumbnail">
 <p><a href="./pages/condes_tutorial.html" class="no-external"></a></p><a href="./pages/condes_tutorial.html" class="no-external">
-<p class="card-img-top"><img src="_site/resources/condes.jpeg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="docs\_site\resources\condes.jpeg"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./pages/condes_tutorial.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -256,16 +256,13 @@ window.Quarto = {
 <a href="./pages/condes_tutorial.html" class="no-external">getting started with course planning software</a>
 </div>
 <div class="listing-description">
-<a href="./pages/condes_tutorial.html" class="no-external">User Guide - https://www.condes.net/onlinehelp/index.html?CondesUserGuideFromScottishOrienteeringAssociation</a>
+<a href="./pages/condes_tutorial.html" class="no-external">The workshop will give you experience in:</a>
 </div>
 </div>
 <div class="metadata">
 <a href="./pages/condes_tutorial.html" class="no-external">
 <div class="listing-date">
 Aug 29, 2024
-</div>
-<div class="listing-author">
-Dunedin Orienteering Club
 </div>
 </a>
 </div>
@@ -402,7 +399,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/MattBixley\.github\.io\/navsport_tutorials\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

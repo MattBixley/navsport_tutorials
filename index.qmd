@@ -1,6 +1,6 @@
 ---
 title: "Things with Maps"
-subtitle: "getting started with map sports"
+subtitle: "getting started with map sports, tools and planning"
 author: "Matt Bixley"
 listing:
   contents:

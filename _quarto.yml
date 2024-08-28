@@ -24,10 +24,6 @@ website:
     right:
       - icon: github
         href: https://github.com
-        
-  sidebar:
-    style: "docked"
-    search: true
   
   page-navigation: true
 

@@ -11,16 +11,52 @@ date: "2024-08-29"
 :::
 
 # Outline
+
 The workshop will give you experience in:
 
--   Installing Condes onto your device (if required)
--   Importing a map ready to plan your course
--   Using the course planning tools to set a course (put the circles, lines, other information onto the printed map)
--   Laying out a course map ready for printing
--   Exporting data files and map files
+-   Installing Condes onto your device (if required) (15 Mins)
+-   Importing a map ready to plan your course (15 Mins)
+-   Using the course planning tools to set a course (30 Mins)
+-   Laying out a course map ready for printing (30 Mins)
+-   Exporting data files and map files (15 Mins)
 
 # Guides
 
 -   User Guide - [Condes User Guide From Scottish Orienteering Association](https://www.condes.net/onlinehelp/index.html?CondesUserGuideFromScottishOrienteeringAssociation){.uri}
 
 -   Quick Start - [Condes Quick Start](https://www.condes.net/onlinehelp/index.html?HowToGetAQuickStart){.uri}
+
+# Installation
+
+-   [Condes Download](https://condes.net/download/) - install_condes9.exe
+
+-   Look at the various tools
+
+# Create an Event
+
+-   File \> New Event File (ctrl + n)\
+    follow the wizard
+
+-   File \> Save Event File (ctrl + s) to somewhere
+
+# Create a Course
+
+-   Course \> New
+
+-   Start/Finish
+
+-   Add Controls
+
+-   Write Descriptions
+
+# Layout
+
+-   Add Title
+
+-   Add Control Descriptions
+
+-   Add an Image
+
+-   Resize
+
+-   Print

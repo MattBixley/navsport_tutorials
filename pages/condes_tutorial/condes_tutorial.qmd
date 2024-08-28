@@ -5,9 +5,9 @@ date: "2024-08-29"
 ---
 
 ::: {layout-ncol="2"}
-[![](condes.jpeg){width="175"}](https://www.condes.net/){target="_blank"}
+[![](condes.jpeg){width="175"}](https://www.condes.net/)
 
-[![](DOC.png){fig-align="right" width="90"}](https://www.dunedinorienteering.org/){target="_blank"}
+[![](DOC.png){fig-align="right" width="90"}](https://www.dunedinorienteering.org/)
 :::
 
 # Outline
@@ -19,6 +19,8 @@ The workshop will give you experience in:
 -   Using the course planning tools to set a course (30 Mins)
 -   Laying out a course map ready for printing (30 Mins)
 -   Exporting data files and map files (15 Mins)
+
+Resources for the session - \<download link\>
 
 # Guides
 

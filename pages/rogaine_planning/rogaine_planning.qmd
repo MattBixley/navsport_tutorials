@@ -6,6 +6,42 @@ Under Construction\
 \
 In the meantime check out [Rogaine Results](https://rogaine-results.com/){target="_blank"} built by Greig Hamilton
 
-# 1st Thing
+# Outline
 
-# 2nd Thing
+-   Planning a Route
+
+    -   Goals
+
+    -   Tools
+
+    -   Distance/Score
+
+    -   Exercise - plan a 10k route.
+
+-   Route Execution
+
+    -   Map/Course walk through
+
+    -   Exercise - secret
+
+-   Food/Nutrition/Gear
+
+    -   Short
+
+    -   Long
+
+-   Pre/Post Event
+
+    -   Event Log
+
+    -   Terrain
+
+        -   Review
+
+        -   Map Making
+
+    -   Overanalysis
+
+        -   replan
+
+# 

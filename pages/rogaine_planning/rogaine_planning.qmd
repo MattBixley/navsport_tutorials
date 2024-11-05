@@ -1,5 +1,10 @@
 ---
 title: "Rogaine Planning"
+format:
+  html:
+    toc: true
+    toc-title: Outline
+    toc-depth: 2
 ---
 
 Thursday November 7th\

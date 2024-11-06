@@ -19,10 +19,10 @@ website:
         text: Home
       - href: pages/condes_tutorial/condes_tutorial.qmd
         text: Condes Tutorial
-      - href: pages/course_planning/course_planning.qmd
-        text: Course Planning
       - href: pages/rogaine_planning/rogaine_planning.qmd
         text: Rogaine Planning
+      - href: pages/course_planning/course_planning.qmd
+        text: Course Planning
     right:
       - icon: github
         href: https://github.com

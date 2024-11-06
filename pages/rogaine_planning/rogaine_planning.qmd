@@ -21,7 +21,20 @@ In the meantime check out [Rogaine Results](https://rogaine-results.com/){target
 
 #   Route Execution
     -   Map/Course walk through
-    -   Exercise - secret
+    -   Exercise 1
+::: {.panel-tabset}
+#### Task
+
+1) Plan a 10km Route
+2) Note the 1/2 way (5km Mark)
+3) What's your Score
+
+#### Solution
+
+Route - 42, 107, 33, 60, 45, 32, 106, 46, 80, 88, 35, 105, 47, 65, 87, 37, 39, 86, 38, 102, 82, 41, 84, 40, 67
+Halfway - ~105
+Score - 1480
+:::
 
 #   Food/Nutrition/Gear
     -   Short

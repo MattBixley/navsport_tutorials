@@ -97,12 +97,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Condes Tutorial</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../pages/course_planning/course_planning.html"> 
-<span class="menu-text">Course Planning</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="../../pages/rogaine_planning/rogaine_planning.html" aria-current="page"> 
 <span class="menu-text">Rogaine Planning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/course_planning/course_planning.html"> 
+<span class="menu-text">Course Planning</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -171,7 +171,22 @@ In the meantime check out <a href="https://rogaine-results.com/" target="_blank"
 <section id="route-execution" class="level1">
 <h1>Route Execution</h1>
 <pre><code>-   Map/Course walk through
--   Exercise - secret</code></pre>
+-   Exercise 1</code></pre>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Task</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Solution</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<ol type="1">
+<li>Plan a 10km Route</li>
+<li>Note the 1/2 way (5km Mark)</li>
+<li>What’s your Score</li>
+</ol>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Route - 42, 107, 33, 60, 45, 32, 106, 46, 80, 88, 35, 105, 47, 65, 87, 37, 39, 86, 38, 102, 82, 41, 84, 40, 67 Halfway - ~105 Score - 1480</p>
+</div>
+</div>
+</div>
 </section>
 <section id="foodnutritiongear" class="level1">
 <h1>Food/Nutrition/Gear</h1>
@@ -296,7 +311,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/MattBixley\.github\.io\/navsport_tutorials\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

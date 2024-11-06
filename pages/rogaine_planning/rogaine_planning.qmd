@@ -3,7 +3,7 @@ title: "Rogaine Planning"
 format:
   html:
     toc: true
-    toc-title: Outline
+    toc-title: Contents
     toc-depth: 2
 ---
 
@@ -12,24 +12,22 @@ Under Construction\
 \
 In the meantime check out [Rogaine Results](https://rogaine-results.com/){target="_blank"} built by Greig Hamilton
 
-# Outline
-
-##   Planning a Route
+#   Planning a Route
 
     -   Goals
     -   Tools
     -   Distance/Score
     -   Exercise - plan a 10k route.
 
-##   Route Execution
+#   Route Execution
     -   Map/Course walk through
     -   Exercise - secret
 
-##   Food/Nutrition/Gear
+#   Food/Nutrition/Gear
     -   Short
     -   Long
 
-##   Pre/Post Event
+#   Pre/Post Event
     -   Event Log
     -   Terrain
         -   Review

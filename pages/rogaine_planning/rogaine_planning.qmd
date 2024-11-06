@@ -14,16 +14,20 @@ In the meantime check out [Rogaine Results](https://rogaine-results.com/){target
 
 #   Planning a Route
 
-    -   Goals
-    -   Tools
-    -   Distance/Score
-    -   Exercise - plan a 10k route.
+### Goals
+It's a good idea that the team all agrees before hand what their goals might be. It will save you from a disagreement. There's no correct goal, except for having a good time.
 
-#   Route Execution
-    -   Map/Course walk through
-    -   Exercise 1
+* Out for fun
+* Explore somewhere new
+* Maximise your score
+* Win
+
+### Tools
+* String
+
+### Distance/Score
 ::: {.panel-tabset}
-#### Task
+#### Exercise 1
 
 1) Plan a 10km Route
 2) Note the 1/2 way (5km Mark)
@@ -31,22 +35,41 @@ In the meantime check out [Rogaine Results](https://rogaine-results.com/){target
 
 #### Solution
 
-Route - 42, 107, 33, 60, 45, 32, 106, 46, 80, 88, 35, 105, 47, 65, 87, 37, 39, 86, 38, 102, 82, 41, 84, 40, 67
-Halfway - ~105
-Score - 1480
+Route: 42, 107, 33, 60, 45, 32, 106, 46, 80, 88, 35, 105, 47, 65, 87, 37, 39, 86, 38, 102, 82, 41, 84, 40, 67\
+Halfway: ~105\
+Score: 1480\
+:::
+
+#   Route Execution
+    -   Map/Course walk through
+
+::: {.panel-tabset}
+#### Exercise 2
+
+You've misjudged you original plan and you are:
+
+  a) 30 minutes late to halfway, cut 2km from your course\
+  b) 30 minutes early, add 2km to your course\
+
+#### Solution
+Part A - 42, 107, 33, 60, 45, 32, 106, 46, 80, 88, 35, 105, 47, 65, 87, 37, 39, 86, 38, 102, 82, 41, 84, 40, 67\
+       - ie: cut out 37, 39, 86, 38, 102, 82, 41
+
+Part B - 42, 107, 33, 60, 45, 32, 106, 46, 80, 88, 35, 105, 47, 65, 87, 37, 39, 86, 38, 102, 82, 41, 84, 40, 67\
+       - 49, 63, 101 (maybe have to drop 67)
 :::
 
 #   Food/Nutrition/Gear
-    -   Short
-    -   Long
+* Short
+* Long
 
 #   Pre/Post Event
-    -   Event Log
-    -   Terrain
-        -   Review
-        -   Map Making
-    -   Overanalysis
-        -   replan
+* Event Log
+* Terrain
+  * Review
+  * Map Making
+* Overanalysis
+   * Replan
 
 # Appendix 
 

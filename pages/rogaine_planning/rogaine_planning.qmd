@@ -63,7 +63,7 @@ It's a good idea that the team all agrees before hand what their goals might be.
 ::: {.panel-tabset style="color: darkgrey"}
 #### Exercise 1
 
-1)  Plan a 10km Route
+1)  Plan a 10km Route (hint: clearing the course is 20km)
 2)  Note the 1/2 way (5km Mark)
 3)  What's your Score
 

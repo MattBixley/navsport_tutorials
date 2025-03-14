@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Matt Bixley">
 
-<title>Things with Maps</title>
+<title>Things with Maps - Maps</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +66,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Things with Maps</span>
     </a>
   </div>
@@ -150,19 +89,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pages/condes_tutorial/condes_tutorial.html"> 
+    <a class="nav-link" href="../../pages/condes_tutorial/condes_tutorial.html"> 
 <span class="menu-text">Condes Tutorial</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pages/rogaine_planning/rogaine_planning.html"> 
+    <a class="nav-link" href="../../pages/rogaine_planning/rogaine_planning.html"> 
 <span class="menu-text">Rogaine Planning</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pages/course_planning/course_planning.html"> 
+    <a class="nav-link" href="../../pages/course_planning/course_planning.html"> 
 <span class="menu-text">Course Planning</span></a>
   </li>  
 </ul>
@@ -182,29 +121,31 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#schools-series---taieri-college" id="toc-schools-series---taieri-college" class="nav-link active" data-scroll-target="#schools-series---taieri-college">Schools Series - Taieri College</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/MattBixley/condes_tutorial/edit/main/pages/maps/maps.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MattBixley/condes_tutorial/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Things with Maps</h1>
-<p class="subtitle lead">getting started with map sports, tools and planning</p>
+<h1 class="title">Maps</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Matt Bixley <a href="mailto:mattbixley72@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
-          </div>
-  </div>
     
   
     
@@ -215,117 +156,28 @@ window.Quarto = {
 </header>
 
 
-<style>
-  body {
-  background-image: url("resources/flattop_background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(255,255,255,0.8);
-  background-blend-mode: lighten;
-}
-</style>
+<section id="schools-series---taieri-college" class="level2">
+<h2 class="anchored" data-anchor-id="schools-series---taieri-college">Schools Series - Taieri College</h2>
+<p>Hard Course Part 1 and Part 2</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="SS2_Hard1.jpg" class="img-fluid figure-img" data-group="ss2"></p>
+<figcaption>Part 1</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="SS2_Hard2.jpg" class="img-fluid figure-img" data-group="ss2"></p>
+<figcaption>Part 2</figcaption>
+</figure>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1724846400000" data-listing-file-modified-sort="1730847402559" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
-<div class="thumbnail">
-<p><a href="./pages/condes_tutorial/condes_tutorial.html" class="no-external"></a></p><a href="./pages/condes_tutorial/condes_tutorial.html" class="no-external">
-<p class="card-img-top"><img src="pages\condes_tutorial\condes.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./pages/condes_tutorial/condes_tutorial.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pages/condes_tutorial/condes_tutorial.html" class="no-external">Condes Tutorial</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pages/condes_tutorial/condes_tutorial.html" class="no-external">getting started with course planning software</a>
-</div>
-<div class="listing-description">
-<a href="./pages/condes_tutorial/condes_tutorial.html" class="no-external">The workshop will give you experience in:</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./pages/condes_tutorial/condes_tutorial.html" class="no-external">
-<div class="listing-date">
-Aug 29, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1730847403503" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail">
-<p><a href="./pages/course_planning/course_planning.html" class="no-external"></a></p><a href="./pages/course_planning/course_planning.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./pages/course_planning/course_planning.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pages/course_planning/course_planning.html" class="no-external">Course Planning</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pages/course_planning/course_planning.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./pages/course_planning/course_planning.html" class="no-external">Under Construction</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./pages/course_planning/course_planning.html" class="no-external"></a></p><a href="./pages/course_planning/course_planning.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1741912458894" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail">
-<p><a href="./pages/maps/maps.html" class="no-external"></a></p><a href="./pages/maps/maps.html" class="no-external">
-<p class="card-img-top"><img src="pages\maps\SS2_Hard1.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./pages/maps/maps.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pages/maps/maps.html" class="no-external">Maps</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pages/maps/maps.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./pages/maps/maps.html" class="no-external">Hard Course Part 1 and Part 2</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./pages/maps/maps.html" class="no-external"></a></p><a href="./pages/maps/maps.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1731029334602" data-listing-reading-time-sort="24" data-listing-word-count-sort="4659">
-<div class="thumbnail">
-<p><a href="./pages/rogaine_planning/rogaine_planning.html" class="no-external"></a></p><a href="./pages/rogaine_planning/rogaine_planning.html" class="no-external">
-<p class="card-img-top"><img src="pages\rogaine_planning\time_distance.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./pages/rogaine_planning/rogaine_planning.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pages/rogaine_planning/rogaine_planning.html" class="no-external">Rogaine Planning</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pages/rogaine_planning/rogaine_planning.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./pages/rogaine_planning/rogaine_planning.html" class="no-external">It’s a good idea that the team all agrees before hand what their goals might be. It will save you from a disagreement. There’s no correct goal, except for having a good time.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./pages/rogaine_planning/rogaine_planning.html" class="no-external"></a></p><a href="./pages/rogaine_planning/rogaine_planning.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -743,7 +595,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/MattBixley/condes_tutorial/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MattBixley/condes_tutorial/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/MattBixley/condes_tutorial/edit/main/pages/maps/maps.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MattBixley/condes_tutorial/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

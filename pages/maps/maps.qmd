@@ -1,0 +1,19 @@
+---
+title: "Maps"
+format:
+  html:
+    toc: true
+    toc-title: Contents
+    toc-depth: 2
+    toc-location: left
+---
+
+## Schools Series - Taieri College
+
+Hard Course Part 1 and Part 2
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
+![Part 1](SS2_Hard1.jpg){alt="Part 1" group="ss2" fig-align="center"}
+
+![Part 2](SS2_Hard2.jpg){alt="Part 2" group="ss2" fig-align="center"}
+:::

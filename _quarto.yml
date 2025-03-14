@@ -23,6 +23,8 @@ website:
         text: Rogaine Planning
       - href: pages/course_planning/course_planning.qmd
         text: Course Planning
+      - href: pages/rogaine_planning/maps.qmd
+        text: Maps
     right:
       - icon: github
         href: https://github.com

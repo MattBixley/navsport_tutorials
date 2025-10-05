@@ -25,6 +25,8 @@ website:
         text: Course Planning
       - href: pages/rogaine_planning/maps.qmd
         text: Maps
+      - href: pages/orienteering_intro/orienteering_intro.qmd
+        text: Orienteering Intro
     right:
       - icon: github
         href: https://github.com

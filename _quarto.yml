@@ -23,7 +23,7 @@ website:
         text: Rogaine Planning
       - href: pages/course_planning/course_planning.qmd
         text: Course Planning
-      - href: pages/rogaine_planning/maps.qmd
+      - href: pages/maps/maps.qmd
         text: Maps
       - href: pages/orienteering_intro/orienteering_intro.qmd
         text: Orienteering Intro
